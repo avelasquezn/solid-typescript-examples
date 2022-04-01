@@ -26,7 +26,8 @@ https://plugins.jetbrains.com/plugin/17380-uml-javascript-and-typescript
 ## Setup for reviewing code with Microsoft Visual Studio Code
 
 ### Install VS Code Class Diagram Extension
-Use the classdiagram-ts Extension
+Use the classdiagram-ts Extension.
+
 You can find it in Extensions section of the IDE or at the following URL:
 ```
 https://marketplace.visualstudio.com/items?itemName=AlexShen.classdiagram-ts
@@ -37,6 +38,7 @@ https://marketplace.visualstudio.com/items?itemName=AlexShen.classdiagram-ts
 ## Windows
 
 ```
+$ cd 1.srp
 $ tsc 1.non.srp.ts | node 1.non.srp.js
 $ tsc 1.srp.ts | node 1.srp.js
 ```
@@ -44,6 +46,7 @@ $ tsc 1.srp.ts | node 1.srp.js
 ## Mac
 
 ```
+$ cd 1.srp
 $ tsc 1.non.srp.ts && node 1.non.srp.js
 $ tsc 1.srp.ts && node 1.srp.js
 ```
